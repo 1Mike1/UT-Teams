@@ -1,0 +1,15 @@
+{
+    "name": "teams-for-ut.mithlesh.kumar",
+    "description": "An unoffical microsoft teams for ubuntu touch",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Teams",
+    "hooks": {
+        "teams-for-ut": {
+            "apparmor": "teams-for-ut.apparmor",
+            "desktop":  "teams-for-ut.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Mithlesh Kumar <email@domain.org>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
